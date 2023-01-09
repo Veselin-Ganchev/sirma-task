@@ -50,7 +50,7 @@ const CSVreader = () => {
         end = moment(moment().format("YYYY-MM-DD"));
       } else {
         end = moment(el.DateTo);
-      }
+      } 
       console.log(end.diff(start, "days"));
     });
   };
