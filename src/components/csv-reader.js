@@ -41,6 +41,7 @@ const CSVreader = () => {
     return workedOnSameProj;
   };
 
+  
   /* get sum of days worked on project */
   const daysWorked = (data) => {
     data.map((el) => {
